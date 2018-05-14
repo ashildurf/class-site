@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.title {
+	font-family: Venus;
+	font-size: 40px;
+	font-weight: medium;
+	padding-top: 10px;
+	
+}
+
+.text {
+	font-family: Venus;
+	font-size: 23px;
+	font-weight: lighter;
+	padding-top: 32px;
+	line-height: 0.8;
+	word-spacing: 0.2em;
+	text-align: left;
+
+}
+
+
+
+@font-face {
+font-family: Venus;
+src: url(/venus.ttf);
+
+}
+
+
+body {
+	background-color: #e8ecf2;
+	margin: 70px;
+	margin-top: 90px;
+
+}
+

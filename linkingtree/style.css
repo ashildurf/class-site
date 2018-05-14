@@ -1,0 +1,214 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+p {
+	font-family: "mrs-eaves-xl-serif";
+	font-size: 17px;
+	color: black;
+}
+
+h1 {
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 700;
+	font-size: 18;
+	padding: 5px;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 700;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+.lefty {
+	position: fixed;
+	top: 50%;
+	left: 20%;
+}
+
+.righty {
+	position: fixed;
+	top: 50%;
+	left: 55%;
+}
+
+
+.smallcolumn {
+	width: 30%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.column {
+	
+}
+
+.left {
+	width: 25%;
+	position: fixed;
+	top: 20%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+
+}
+
+.right {
+	width: 23%;
+	position: fixed;
+	top: 70%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+}
+
+.row:after {  /* Clears float after the columns */ 
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.quotes {
+	font-family: "mrs-eaves-xl-serif";
+	font-style: italic;
+	font-size: 200px;
+	position: relative;
+	text-align: center;
+}
+
+.museumtext {
+ font-family: "mrs-eaves-xl-serif";
+	font-style: italic;
+	font-size: 200px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.recycling {
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 700;
+	font-size: 100px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.manhattanold {
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 700;
+	font-size: 190px;
+	position: relative;
+	left: 3000px;
+}
+
+
+
+.hugetext {
+	position: auto;
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 400;
+	font-size: 300px;
+
+}
+
+.question {
+	font-family: "mrs-eaves-xl-serif";
+	position: relative;
+	top: 20%;
+	font-weight: 700px;
+	font-size: 100px;
+	width: 9000px;
+	word-spacing: 250px;
+}
+
+.blueberry {
+	font-family: "mrs-eaves-xl-serif";
+	position: relative;
+	font-weight: 700px;
+	font-size: 300px;
+	width: 300px;
+	line-height: 200%;
+	margin: 40px;
+	text-align: center;
+}
+
+.carbonchallenge {
+	font-family: "mrs-eaves-xl-serif";
+	position: relative;
+	font-weight: 700px;
+	font-size: 400px;
+	word-spacing: 200px;
+	width: 12000px;
+	
+}
+
+.refusetext {
+	position: relative;
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 400;
+	font-size: 100px;
+	left: 130%;
+
+}
+
+.largesttext {
+
+	position: relative;
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 400;
+	font-size: 800px;
+	left: 60%;
+
+
+}
+
+b {
+	color: lightblue;
+}
+
+i {
+color: #f96b68
+}
+
+u {
+ text-decoration: underline;
+}
+
+em {
+	color:#f4b63f;
+	font-family: "mrs-eaves-xl-serif";
+	font-weight: 700px;
+	font-size: 400px;
+	font-style: italic;
+
+}
+
+s {
+	color: #c6eabb;
+	
+}
+

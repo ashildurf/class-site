@@ -1,0 +1,69 @@
+<html>
+    
+    <html>
+
+	<head>
+	    
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<title> RANDOM COLOR </title>
+
+
+
+<style>
+
+h2 {
+    font-family: helvetica;
+    position: relative;
+    left: 50%;
+    top: 2%;
+ 
+}
+
+ div {
+     width: 700px;
+     height: 700px;
+     left: 220px;
+     position: relative;
+ }
+ 
+ .box {
+     width: 100%;
+ }
+ 
+ 
+ 
+</style>
+
+</head>
+
+<body>
+    
+    <div class="box">
+        <div style="background-color:pink;">
+    </div>
+    
+    <script>
+  /* global $ */
+  
+   $( ".box div" ).mouseover(function() {
+    $( this ).css( "background-color", getRandomColor());
+  });
+  
+  function getRandomColor () {
+    // this function returns a string with format "rgb(000,000,000)" where 000 is an integer between 0 and 255
+    var random0to255 = function() {
+      return Math.floor(Math.random()*255);
+    }
+    return "rgb(" + random0to255() + "," + random0to255() + "," + random0to255() + ")";
+  }
+  
+  </script>
+
+</body>
+
+</html>
+    
+</html>

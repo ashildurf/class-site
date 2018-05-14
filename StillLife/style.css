@@ -1,0 +1,227 @@
+
+ body {
+	background-color: #d56147;
+	z-index: -1;
+} 
+
+#positionscreen {
+	left: 50%;
+	position: absolute;
+	transform: translateY();
+	z-index: 1;
+}
+
+.computer {
+	width: 300px;
+	height: 340px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #b6b4a5;
+	border-radius: 6px;
+	z-index: 1;
+}
+
+
+
+.screen {
+	top: 2.5%;
+  left: 16.5%;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  background: #141414;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  z-index: 1;
+}
+
+.screen:before{
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+  z-index: 1;
+}
+
+.disc {
+	background-color: black;
+	width: 100px;
+	height: 10px;
+	position: absolute;
+	top: 67%;
+	left: 65%;
+	transform: translate(-50%, -60%);
+	z-index: 1;
+	border-radius: 3px;
+}
+
+.logosquare {
+	width: 25px;
+	height: 25px;
+	background-color: #a29f93;
+	position: absolute;
+	border-radius: 4px;
+	top: 156%;
+	left: 8%;
+	transform: translate(-64%, -41%);
+	z-index: 1;
+}
+
+.keyboardshadow {
+
+	width: 475px;
+	height: 30px;
+	background-color: #a09e8d;
+	z-index: -2;
+	border-radius: 4px;
+	top: 118%;
+	left: -31%;
+	position: absolute;
+
+}
+
+.keyboard {
+	width: 380px;
+	top: 300%;
+	left: 190%;
+	transform: translate(-40%, -20%);
+	border-bottom: 100px solid #d3d1c5;
+	position: absolute;
+	z-index: 4;
+	border-radius: 10px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+
+}
+
+
+
+.orangeone {
+	background-color: #ee9337;
+	width: 120px;
+	height: 120px;
+	border-radius: 80px;
+	position: absolute;
+	left: 54%;
+	top: -30%;
+	z-index: 3;
+}
+
+.orangeleaf {
+	background-color: #4a8a26;
+	width: 4px;
+	height: 27px;
+	position: absolute;
+	top: 10%;
+	left: 90%;
+	transform: rotate(60deg);
+}
+
+.leaf {
+	width: 100px; height: 100px;
+	background-color: #4a8a26;
+	-moz-border-radius: 100px 0px;
+  	-webkit-border-radius: 100px 0px;
+  	border-radius: 100px 0px;
+  	transform: scale(0.6) rotate(50deg);
+  	position: absolute;
+  	top: -35%;
+  	left: 1%;
+
+}
+
+
+.orangetwo {
+	background-color: #ee9337;
+	width: 120px;
+	height: 120px;
+	border-radius: 80px;
+	position: absolute;
+	left: -30%;
+	top: 110%;
+	z-index: 3;
+}
+
+.whiteball {
+	width: 220px;
+	height: 220px;
+	background-color: #e8ebe6;
+	border-radius: 200px;
+	left: -70%;
+	top: 63%;
+	position: absolute;
+	z-index: 2;
+}
+
+ 
+ .flask {
+ 	background-color: white;
+ 	width: 120px;
+ 	height: 200px;
+ 	opacity: 0.5;
+ 	border-radius: 10px;
+ 	position: absolute;
+ 	left: 110%;
+ 	top: 80%;
+ }
+
+ .flaskcircle {
+ 	background-color: white;
+ 	width: 120px;
+ 	height: 100px;
+ 	opacity: 1;
+ 	border-radius: 30px;
+ 	position: absolute;
+ 	top: -20%;
+ 	z-index: 4;
+ }
+
+ .flasktop {
+ 	background-color: white;
+ 	width: 46px;
+ 	height: 40px;
+ 	position: absolute;
+ 	top: -40%;
+ 	left: 30%;
+ 	z-index: 4;
+ 	opacity: 0.9;
+ }
+
+ .flasktopcircle {
+ 	background-color: white;
+ 	width: 60px;
+ 	height: 10px;
+ 	position: absolute;
+ 	top: -45%;
+ 	left: 24%;
+ 	border-radius: 5px;
+ 	z-index: 4;
+ }
+
+ .cork {
+ 	width: 40px;
+ 	height: 60px;
+ 	background-color: #a96738;
+ 	top: 50%;
+ 	left: 123%;
+ 	opacity: 100%;
+ 	border-radius: 2px;
+ 	position: absolute;
+ 	z-index: -1;
+
+ }
+
+ .keybuttons {
+ 	
+ }
+

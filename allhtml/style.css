@@ -1,0 +1,24 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	background-color: #fcf6d1;
+	margin: 40px;
+
+}
+
+.title {
+	text-align: center;
+	padding: 40px;
+	font-family: helvetica;
+	font-size: 30px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

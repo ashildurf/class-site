@@ -1,0 +1,75 @@
+
+.week {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 85.7%;
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 85.7%;
+}
+
+/* OTHER STYLES */
+
+html, body {
+  height: 100%;
+  background-color: #eaf7f2;
+}
+
+body {
+  background: linear-gradient(top, #42d9f4, #42d9f4);
+  background-attachment: fixed;
+}
+
+.month {
+  max-width: 560px;
+  margin: 20px auto;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  position: relative;
+
+
+}
+
+.title {
+
+  font-family: Venus;
+  font-weight: medium;
+  font-size: 35px;
+  color: #42d9f4;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
+
+}
+
+@font-face {
+font-family: Venus;
+src: url(fonts/Venus-Medium.ttf);
+
+}
+
+.week {
+  height: 80px;
+}
+
+.day {
+  color: #42d9f4;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow: 
+    -1px -1px #42d9f4, 
+    inset -1px -1px 0 0 #42d9f4;
+}

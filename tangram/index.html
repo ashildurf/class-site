@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tangram</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=1000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="script.js"></script>  
+  
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>-->
+
+
+
+</head>
+<body>
+
+  <a href="about.html"> 
+   <div class="display" id="about"> </div>
+ </a>
+
+            <!-- SWaN -->
+
+  <div class="position"> 
+	<div class="draggable" id="d1"></div>
+  <div class="draggable" id="d2"></div>
+  <div class="draggable" id="d3"></div>
+  <div class="draggable" id="d4"></div>
+  <div class="draggable" id="d5"></div>
+  <div class="draggable" id="d6"></div>
+  <div class="draggable" id="d7"></div>
+  <div class="draggable" id="d8"></div>
+  <div class="draggable" id="d9"></div>
+  <div class="draggable" id="d10"></div>
+  <div class="draggable" id="d11"></div>
+  <div class="draggable" id="d12"></div>
+  <div class="draggable" id="d13"></div>
+  <div class="draggable" id="d14"></div>
+  <div class="draggable" id="d15"></div>
+  <div class="draggable" id="d16"></div>
+  <div class="draggable" id="d17"></div>
+  <div class="draggable" id="d18"></div>
+  <div class="draggable" id="d19"></div>
+</div>
+
+
+
+       <!-- FLoWer -->
+
+
+<div class="draggable" id="f1"> </div>
+<div class="draggable" id="f2"> </div>
+<div class="draggable" id="f3"> </div>
+<div class="draggable" id="f4"> </div>
+<div class="draggable" id="f5"> </div>
+<div class="draggable" id="f6"> </div>
+<div class="draggable" id="f7"> </div>
+
+
+
+</body>
+
+<script type="text/javascript">
+
+  /* swal("Drag and drop the shapes to create your own images"); */
+
+
+var nodeList = document.getElementsByClassName('draggable');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+
+
+
+</script>
+</html>

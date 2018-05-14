@@ -1,0 +1,317 @@
+
+* {
+	padding: 0px;
+	margin:0px;
+  overflow-x: none;
+}
+
+html, body {
+  height: 100%;
+  background-color: #d1bbf9;
+  overflow-x: none;
+}
+
+.hoverbar {
+  width: 30px;
+  height: 100px;
+  color: white;
+  opacity: 0.9;
+  border-radius: 10%;
+  position: relative;
+
+}
+
+.position {
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  position: absolute;
+}
+
+.pacman{
+  margin:40px 10px;
+
+}
+
+.pacman-top{
+  background-color:#fff25e;
+  height:100px;
+  width:200px;
+  border-radius:100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom{
+  background-color:#fff25e;
+  height:100px;
+  width:200px;
+  border-radius:0 0 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed {
+margin-top: -185px;
+margin-left:15px;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+-moz-animation: eat 1s linear 0s infinite;
+-webkit-animation: eat 1s linear 0s infinite;
+animation: eat 1s linear 0s infinite;
+overflow-y: none;
+}   
+
+.text {
+  font-family: Venus;
+  font-weight: medium;
+  font-size: 30px;
+  color: #d1bbf9;
+}
+
+
+#t1 {
+  position: relative;
+  top: 5%;
+  left: 6%;
+  color: #d1bbf9;
+ 
+}
+
+#t1:hover{
+  position: relative;
+  top: 5%;
+  left: 6%;
+  color: white;
+
+}
+
+#t2 {
+  position: relative;
+  top: 30%;
+  left: 18%;
+  color: #d1bbf9;
+
+}
+
+#t2:hover {
+  position: relative;
+  top: 30%;
+  left: 18%;
+  color: white;
+
+}
+
+#t3 {
+  position: relative;
+  top: 20%;
+  left: 78%;
+  color: #d1bbf9;
+}
+
+#t3:hover {
+  position: relative;
+  top: 20%;
+  left: 78%;
+  color: white;
+}
+
+
+#t4 {
+
+  position: relative;
+  top: 8%;
+  left: 50%;
+  color: #d1bbf9;
+  
+}
+
+#t4:hover {
+  position: relative;
+  top: 8%;
+  left: 50%;
+  color: white;
+}
+
+#t5 {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  color: #d1bbf9;
+
+  }
+
+  #t5:hover {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  color: white;
+
+  }
+
+#t6 {
+  position: relative;
+  top: 73%;
+  left: 10%;
+  color: #d1bbf9;
+  
+}
+
+#t6:hover {
+  position: relative;
+  top: 73%;
+  left: 10%;
+  color: white;
+  
+}
+
+
+#t7 {
+  position: relative;
+  top: 2%;
+  left: 10%;
+  color: #d1bbf9;
+
+}
+
+#t7:hover {
+  position: relative;
+  top: 2%;
+  left: 10%;
+  color: white;
+
+}
+
+
+#t8 {
+  position: relative;
+  top: 50%;
+  left: 80%;
+  color: #d1bbf9;
+}
+
+#t8:hover {
+  position: relative;
+  top: 50%;
+  left: 80%;
+  color: white;
+}
+
+
+#t9 {
+  position: relative;
+  top: 10%;
+  left: 60%;
+  color: #d1bbf9;
+}
+
+#t9:hover {
+  position: relative;
+  top: 10%;
+  left: 60%;
+  color: #d1bbf9;
+}
+
+@font-face {
+font-family: Venus;
+src: url(/venus.ttf);
+
+}
+
+
+/* Animation*/
+
+@keyframes spin1 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(-35deg);}
+  
+}
+@keyframes spin2 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}  
+}
+
+@-moz-keyframes spin1 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(-35deg);}
+  
+}
+@-moz-keyframes spin2 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}  
+}
+
+@-webkit-keyframes spin1 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(-35deg);}
+  
+}
+@-webkit-keyframes spin2 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}  
+}
+
+@keyframes eat {
+  0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+}
+
+
+@-moz-keyframes eat {
+  0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+}
+
+
+@-webkit-keyframes eat {
+  0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+}
+

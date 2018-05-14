@@ -1,0 +1,20 @@
+
+
+
+.calendar {
+	width: 80%;
+}
+
+.day-block {
+	width: 100%/7;
+}
+
+.days-of-week, .days-of-month {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+body {
+	background-color: black;
+}

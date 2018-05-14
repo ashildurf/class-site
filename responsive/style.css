@@ -1,0 +1,277 @@
+
+body {
+	background-color: #dadee5;
+}
+
+#large {
+	width: 650px;
+	height: 250px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	
+}
+
+.largelogo {
+	background-image: url("https://i.vimeocdn.com/portrait/4244804_300x300");
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 120%;
+	background-repeat: no-repeat;
+	transform: scale(0.45);
+	left: 10%;
+	top: -10%;
+}
+
+p {
+	font-family: botanika-mono-web, monospace;
+	font-style: normal;
+	font-weight: 400;
+	position: absolute;
+	font-size: 15px;
+	right: 3%;
+	top: 55%;
+	width: 200px;
+	text-align: right;
+}
+
+em {
+	font-size: 13px;
+	font-family: helvetica;
+	font-style: normal;
+}
+
+.inc {
+	font-size: 12px;
+	font-family: helvetica;
+	font-style: normal;
+	position: absolute;
+	left: 3%;
+	font-weight: medium;
+	top: 82%;
+}
+
+#medium {
+	width: 500px;
+	height: 250px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+
+}
+
+.mediumlogo {
+	background-image: url("https://i.vimeocdn.com/portrait/4244804_300x300");
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 120%;
+	background-repeat: no-repeat;
+	transform: scale(0.45);
+	left: -23%;
+	top: -15%;
+}
+
+.incmedium {
+	font-size: 12px;
+	font-family: helvetica;
+	font-style: normal;
+	position: absolute;
+	left: 6%;
+	font-weight: medium;
+	top: 82%;
+}
+
+#small {
+	width: 260px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.smalllogo {
+	background-image: url("https://i.vimeocdn.com/portrait/4244804_300x300");
+	position: absolute;
+	z-index: 3;
+	width: 130%;
+	height: 120%;
+	background-repeat: no-repeat;
+	transform: scale(0.45);
+	left: -12%;
+	top: -15%;
+}
+
+.incsmall {
+	font-size: 12px;
+	font-family: helvetica;
+	font-style: normal;
+	position: absolute;
+	font-weight: medium;
+	left: 30%;
+	top: 60%;
+		
+}
+
+.smalltext {
+	font-family: botanika-mono-web, monospace;
+	font-style: normal;
+	font-weight: 400;
+	position: absolute;
+	font-size: 14px;
+	right: 8%;
+	top: 70%;
+	width: 200px;
+	text-align: left;
+}
+
+
+#smallest {
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.smallestlogo {
+	background-image: url("https://i.vimeocdn.com/portrait/4244804_300x300");
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.45);
+}
+
+#tiny {
+	width: 230px;
+	height: 230px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.tinylogo {
+	background-image: url("https://i.vimeocdn.com/portrait/4244804_300x300");
+	position: absolute;
+	z-index: 3;
+	width: 150%;
+	height: 150%;
+	background-repeat: no-repeat;
+	top: 55%;
+	left: 55%;
+	transform: translate(-50%, -50%) scale(0.45);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+#large {
+	display: block;
+}
+
+#medium {
+	display: none;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+#large {
+	display: none;
+}
+
+#medium {
+	display: block;
+}
+	
+}
+
+
+
+@media screen and (max-width: 600px) {
+	
+	#large {
+		display: none;
+	}
+
+	#medium {
+		display: none;
+	}
+
+	#small {
+		display: block;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	#large {
+		display: none;
+	}
+
+	#medium {
+		display: none;
+	}
+
+	#small {
+		display: none;
+	}
+
+	#tiny {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 450px) {
+
+#large {
+		display: none;
+	}
+
+	#medium {
+		display: none;
+	}
+
+	#small {
+		display: none;
+	}
+
+	#smallest {
+		display: none;
+	}
+
+	#tiny {
+		display: block;
+	}
+
+}
+
+
